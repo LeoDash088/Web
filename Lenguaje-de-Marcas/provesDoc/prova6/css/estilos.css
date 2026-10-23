@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+h1 {
+    background-color: darkblue;
+    color: white;
+    padding: 15px;
+}
+
+h2 {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+iframe {
+    margin-top: 10px;
+}
+
+p {
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+audio {
+    margin-top: 10px;
+}
+
+.btn-volver {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: #ddd;
+    padding: 5px 10px;
+    border-radius: 4px;
+}

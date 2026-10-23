@@ -1,0 +1,15 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
+    gap: 10px;
+}
+
+div {
+    height: 80px;
+}
+
+#mid-column    { grid-column: span 2; background: #444; }
+#mid-column2   { grid-column: span 2; background: #444; }
+#onequart-column { grid-column: span 1; background: #444; }
+#threequart-column { grid-column: span 3; background: #444; }
+#full-column   { grid-column: 1 / -1; background: #444; }

@@ -1,0 +1,65 @@
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+a:active {
+    color: red;
+}
+
+
+input:focus {
+    background-color: lightyellow;
+}
+
+
+input:checked {
+    width: 20px;
+    height: 20px;
+}
+
+input:required {
+    border: 2px solid orange;
+}
+
+input:optional {
+    border: 2px solid blue;
+}
+
+
+p:first-child {
+    color: red;
+}
+
+p:first-of-type {
+    font-weight: bold;
+}
+
+p:last-child {
+    color: blue;
+}
+
+p:last-of-type {
+    text-decoration: underline;
+}
+
+p:nth-child(2) {
+    background-color: lightgreen;
+}
+
+p:nth-of-type(2) {
+    font-style: italic;
+}
+
+
+:not(p) {
+    font-family: Arial;
+}

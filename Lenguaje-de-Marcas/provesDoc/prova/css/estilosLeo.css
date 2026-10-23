@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --color-fondo: #222222;
+    --color-texto: white;
+    --color-principal: #3498db;
+
+
+}
+
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+header{
+    grid-row: 1 / 2;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    padding: 20px 0px;
+}
+.patio {
+    background-color: #e0e0e0;
+    font-weight: bold;
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    grid-row: 2/3;
+}
+main > ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: brown;
+    width: 100%;
+
+}
+#mini-pulcra{
+    width: 100px;
+    height: auto;
+}
+#contenedor-img{
+    justify-content: start;
+    padding-top: 15px;
+    padding-left: 15px;
+
+
+}
+caption{
+    padding-bottom: 20px;
+
+}
+main > ul > li > a{
+    color: greenyellow;
+}
+td{
+    background-color: var(--color-fondo);
+    color:var(--color-texto);
+    border: 1px solid green;
+}
+
+.hora-horari > td,
+.hora-horari > th {
+    background-color: aquamarine;
+    color: rebeccapurple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: transform 0.2s ease-out;
+}
+
+.hora-horari > td:hover,
+.hora-horari > th:hover {
+    transform: scale(1.1)
+}
+tr > th {
+    padding: 15px;
+    border: 1px solid green;
+
+}
+.hora-horari > td{
+
+    background-color: aquamarine;
+    color: rebeccapurple;
+
+
+}
+
+footer{
+    display: flex;
+    font-size: 23px;
+    text-align: center;
+    justify-content: center;
+    grid-row: 3/4;
+}
+
+table{
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 66%;
+    text-align:center;
+    border: 1px solid green;
+    padding-bottom: 20px;
+
+}
+
+#vacio{
+
+    background-color: coral;
+
+}
+volver{
+    background-color: red;
+    padding:20px;
+    border: 1px solid black;
+    border-radius: 30;
+
+}
+
+.btn-volver {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: #ddd;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
