@@ -1,0 +1,35 @@
+*{margin:0px; padding:0px; list-style: none; text-decoration: none;}
+#layout{
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid purple;
+}
+
+#main-layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+#contenedor-imagen > img{
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+#contenedor-imagen{
+    align-items: center;
+}
+#etiqueta{
+    border: 1px red solid;
+    border-radius: 20px;
+    padding: 5px 2px;
+    display: inline;
+}
+header{
+    padding: 15px 15px;
+    background-color: aliceblue;
+}
