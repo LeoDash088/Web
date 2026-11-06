@@ -1,24 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina web pc</title>
     <link rel="stylesheet" href="../CSS/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body id="layout">
+
     <header>
-        <div id="etiqueta"> Renove - 100€</div>
+        <div class="etiqueta">Renove - 100€</div>
+        <div class="etiqueta">Top Venta</div>
     </header>
+
     <main id="main-layout">
-        <div id="contenedor-imagen"><img src="../IMG/portatil.png" alt="Portatil "></div>
-        <div id="contenedor-derecha"><p>Portatil - Lenovo IdeaPad Slim 3 151PH11 Copilot+ PC, 15'3" WUXGA, Intel Core...</p>
+
+        <div id="contenedor-imagen">
+            <img src="../IMG/portatil.png" alt="Portatil">
         </div>
-        <div id="valoraciones-estrellas"></div>
-        <div id="estrellas">&bigstar; &bigstar; &bigstar; &star; &star; </div>
-        <div id="valoracion">1</div>
-        <div id="info"><p>&#9432;</p></div>
+
+        <div id="contenedor-derecha">
+
+            <p>Portatil - Lenovo IdeaPad Slim 3 151PH11 Copilot+ PC, 15'3" WUXGA, Intel Core...</p>
+
+            <div id="valoraciones-estrellas">
+                <div id="estrellas">&bigstar; &bigstar; &bigstar; &star; &star;</div>
+                <div id="valoracion"><p>1</p></div>
+                <div id="info"><p>&#9432;</p></div>
+            </div>
+
+            <div id="des-preu">
+                <p id="descompte">-10%</p>
+                <p id="preu">999,-€</p>
+            </div>
+
+            <p id="preu-real">899,-€</p>
+            <p class="subrayado-gris">IVA incl. Con envio gratis</p>
+            <p class="subrayado-gris">Simula tu financiacion</p>
+
+            <ul>
+                <li class="punto-verde">Disponible online</li>
+                <li>Entrega 26/10/2026</li>
+                <li class="punto-naranja">Recogida en tienda</li>
+                <li>Consultar disponibilidad <span>Seleccionar tienda</span></li>
+            </ul>
+
+        </div>
     </main>
+
+    <footer>
+        <label for="comparar">
+            <input type="checkbox" id="comparar">
+            Comparar
+        </label>
+
+        <button id="añadir-carrito">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Añadir al carrito
+        </button>
+
+        <i class="fa-regular fa-heart" id="cor"></i>
+    </footer>
 
 </body>
 </html>
